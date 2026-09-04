@@ -18,6 +18,9 @@ const cards = {
   "12-foreach": ["Чему равно sum после выполнения кода?", ["int[] numbers = { 2, 4, 6 };", "int sum = 0;", "", "foreach (int number in numbers)", "{", "    sum += number;", "}"]],
   "13-add-function": ["Что выведет этот код?", ["int Add(int a, int b)", "{", "    return a + b;", "}", "", "Console.WriteLine(Add(4, 7));"]],
   "14-total-function": ["Чему равно total после выполнения кода?", ["double CalculateTotal(double price, int quantity)", "{", "    return price * quantity;", "}", "", "double total = CalculateTotal(1250, 2);"]],
+  "15-array-length": ["Чему равно grades.Length?", ["int[] grades = { 5, 4, 3, 5 };"]],
+  "16-function-parameter": ["Как называется name в коде?", ["void PrintGreeting(string name)", "{", "    Console.WriteLine(name);", "}"]],
+  "17-is-adult": ["Что вернёт функция при вызове IsAdult(17)?", ["bool IsAdult(int age)", "{", "    return age >= 18;", "}"]],
 };
 
 const escape = (text) => text.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
